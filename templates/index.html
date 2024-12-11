@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/styles.css">
+    <title>Flask POST Example</title>
+</head>
+<body>
+    <h1>Berikan nama peliharan anda</h1>
+    <form action="/submit" method="POST">
+        <label for="inputField">nama :</label>
+        <input type="text" id="inputField" name="inputField" required>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
